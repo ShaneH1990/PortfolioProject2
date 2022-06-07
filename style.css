@@ -1,0 +1,31 @@
+#heading1{
+    font-size:60px;
+    padding:2px;
+    text-align:center;
+    text-decoration:underline;
+}
+
+#table{
+    background-color: rgb(88, 242, 242);
+    text-align: center;
+    box-sizing: border-box;
+    max-height: 500px;
+    max-width:800px;
+    margin: 0 400px;
+}
+#bncolor{
+    height:50px;
+    margin:400px;
+    width:150px;
+}
+.paragraph{
+    text-align:center;
+    font-size:25px;
+}
+.p2{
+    font-size: 20px;
+    color: white;
+}
+#unorganised{
+    font-size: 20px;
+}
