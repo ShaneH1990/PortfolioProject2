@@ -16,7 +16,9 @@ document.addEventListener("DOMContentLoaded", function(){
             if(this.getAttribute("data-type")=== "submit"){
                 //alert("please enter username");
                 createNew(); 
-                pageInfo();
+            }else if(this.getAttribute("data-type")==="next"){
+                pageTwo();
+            
             }else if(this.getAttribute("data-type")=== "button"){
                loginInfo();
                 //alert("You pressed the 'Next' Button!");
@@ -25,7 +27,10 @@ document.addEventListener("DOMContentLoaded", function(){
                 let normalButton = this.getAttribute("data-type");
             }
         })
-        
+        function highlight(){
+            let fixed = document.getElementById('mi');
+            fixed.style.backgroundColor = "greenyellow";
+        }
         //This function will display the image that is previously blocked by css rules when the submit button is pressed.
         function createNew(){
             
@@ -38,22 +43,49 @@ document.addEventListener("DOMContentLoaded", function(){
             document.getElementById('intro').style.display = "none";
             document.getElementById('labelInfo').style.display = "none";
             document.getElementById('userInfo').style.display = "none";
+            document.getElementById('login').style.display = "none";
+            document.getElementById('p5').style.display = "none";
+            document.getElementById('unorganised4').style.display = "none";
+            document.getElementById('p6').style.display = "none";
+            document.getElementById('unorganised5').style.display = "none";
+            document.getElementById('p7').style.display = "none";
+            document.getElementById('unorganised6').style.display = "none";
+            document.getElementById('intro').style.display = "none";
+            document.getElementById('labelInfo').style.display = "none";
+            document.getElementById('bncolor').style.display = "none";
+            document.getElementById('next1').style.display = "block";
         }
-        function pageInfo(){
-            document.getElementById('pageNumber').style.display = "block"; 
-        }
-        function loginInfo(){
-           alert("button works!");
-        }
-       // let playerArray = ["rock.jpg", "scissor.jpg","paper.jpg", "spock.jpg","lizard.jpg"];
-       // let playerLength = imageArray.length;
-
-        //let computerArray =["rock.jpg", "scissor.jpg", "paper.jpg", "spock.jpg", "lizard.jpg"];
-        //let computerLength = computerArray.length;
-
-        //function randomiseImg(){
-        //    let randompic = Math.floor(Math.random() *imageLength);
-        //}
         
+        function pageTwo(){
+
+            document.getElementById('p2').style.display = "none";
+            document.getElementById('unorganised1').style.display = "none";
+            document.getElementById('p3').style.display = "none";
+            document.getElementById('unorganised2').style.display = "none";
+            document.getElementById('p4').style.display = "none";
+            document.getElementById('intro').style.display = "none";
+            document.getElementById('labelInfo').style.display = "none";
+            document.getElementById('userInfo').style.display = "none";
+            document.getElementById('login').style.display = "none";
+            document.getElementById('unorganised3').style.display = "none";
+            document.getElementById('p5').style.display = "block";
+            document.getElementById('unorganised4').style.display = "block";
+            document.getElementById('p6').style.display = "block";
+            document.getElementById('unorganised5').style.display = "block";
+            document.getElementById('p7').style.display = "block";
+            document.getElementById('unorganised6').style.display = "block";
+            document.getElementById('intro').style.display = "block";
+            document.getElementById('labelInfo').style.display = "block";
+            document.getElementById('bncolor').style.display = "block";
+
+            document.getElementById('next1').style.display = "block";
+
+        }
+
+        function loginInfo(){
+           let getinfo = document.getElementById('userInfo').innerHTML;
+           alert("your name is");
+        }
+       
     }
 })

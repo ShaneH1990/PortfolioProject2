@@ -15,8 +15,8 @@
 }
 #bncolor{
     height:50px;
-    margin:400px;
-    width:150px;
+    margin:200px;
+    width:100px;
 }
 .paragraph{
     text-align:center;
@@ -37,6 +37,37 @@
     color: white;
     display:none;
 }
+#p5{
+    font-size: 20px;
+    color: white;
+    display:none;
+}
+#p6{
+    font-size: 20px;
+    color: white;
+    display:none;
+}
+#p7{
+    font-size: 20px;
+    color: white;
+    display:none;
+}
+#p8{
+    font-size: 20px;
+    color: white;
+    display:none;
+}
+#p9{
+    font-size: 20px;
+    color: white;
+    display:none;
+}
+#p10{
+    font-size: 20px;
+    color: white;
+    display:none;
+}
+
 
 #unorganised1{
     font-size: 20px;
@@ -51,9 +82,33 @@
     display:none;
 }
 
-#mi:hover{
-    background-color:greenyellow;
+#unorganised4{
+    font-size: 20px;
+    display:none;
 }
+#unorganised5{
+    font-size: 20px;
+    display:none;
+}
+#unorganised6{
+    font-size: 20px;
+    display:none;
+}
+#unorganised7{
+    font-size: 20px;
+    display:none;
+}
+#unorganised8{
+    font-size: 20px;
+    display:none;
+}
+#unorganised9{
+    font-size: 20px;
+    display:none;
+}
+
+
+
 #mi:hover{
     background-color:greenyellow;
 }
@@ -81,6 +136,31 @@
 #hk:hover{
     background-color:greenyellow;
 }
+#ar:hover{
+    background-color:greenyellow;
+}
+#oi:hover{
+    background-color:greenyellow;
+}
+#qn:hover{
+    background-color:greenyellow;
+}
+#onethree:hover{
+    background-color:greenyellow;
+}
+#onesix:hover{
+    background-color:greenyellow;
+}
+#oneeigth:hover{
+    background-color:greenyellow;
+}
+
+
+
+
+
+
+
 #pageNumber{
     display:none;
     float:left;
@@ -91,4 +171,16 @@
 #labelInfo{
     font-size:20px;
     
+}
+#q1{
+    display:none;
+}
+#q2{
+    display:none;
+}
+#q3{
+    display:none;
+}
+#next1{
+display:none;
 }
