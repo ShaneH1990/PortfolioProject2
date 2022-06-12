@@ -10,29 +10,32 @@
 
 <body>
     <h1 id ="heading1">Modern Movie Quiz</h1>
-    <p class ="paragraph">welcome to the modern movie quiz here to test your general knowledge on movies</p>
+    <p class ="paragraph">Welcome to the modern movie quiz,this quiz will test your general knowledge on movies</p>
     <div id ="table">
-        <p class ="p2">Question1: Name the movie that Tom Cruise stars as a fighter pilot</p>
-        <ul id ="unorganised">
-            <li>Mission Impossible</li>
-            <li>Top Gun</li>
-            <li>Jack Reacher</li>
+        <p id ="intro">The following quiz will ask you 3 sets of 3 questions and track your progression as you answer each set of questions please enter your usernamde below and then press the begin button to start your quiz</p>
+        <label id="labelInfo">Enter username in the box provided:</label>
+        <input type="text" id ="userInfo" placeholder="enter username here">
+        <p id="pageNumber">page1/3</p>
+        <p id ="p2">Question1: Name the movie that Tom Cruise stars as a fighter pilot</p>
+        <ul id ="unorganised1">
+            <li id="mi">Mission Impossible</li>
+            <li id ="tg">Top Gun</li>
+            <li id="jr">Jack Reacher</li>
         </ul>
 
-        <p class="p2">Question 2: Who plays the character Tony Stark in the movie "Iron Man"?</p>
-        <ul id ="unorganised">
-            <li>Robert Downey Jr</li>
-            <li>Tom Cruise</li>
-            <li>Chris Evans</li>
+        <p id="p3">Question 2: Who plays the character Tony Stark in the movie "Iron Man"?</p>
+        <ul id ="unorganised2">
+            <li id="rd">Robert Downey Jr</li>
+            <li id="tc">Tom Cruise</li>
+            <li id="ce">Chris Evans</li>
         </ul>
-        <p class="p2">Question 3: What is the name of the green Ogre that lives in a swamp with a donkey?</p>
-        <ul id ="unorganised">
-            <li>Yoda</li>
-            <li>Shrek</li>
-            <li>Hulk</li>
+        <p id="p4">Question 3: What is the name of the green Ogre that lives in a swamp with a donkey?</p>
+        <ul id ="unorganised3">
+            <li id="ya">Yoda</li>
+            <li id="sk">Shrek</li>
+            <li id="hk">Hulk</li>
         </ul>
-
-        <button data-type="submit" id="bncolor">Answer</button>
+        <button data-type="submit" aria-label="Begin" id="bncolor">Begin</button>
     </div>
     <script src="script.js"></script>
 </body>

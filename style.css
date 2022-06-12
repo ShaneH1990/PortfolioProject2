@@ -9,8 +9,8 @@
     background-color: rgb(88, 242, 242);
     text-align: center;
     box-sizing: border-box;
-    max-height: 500px;
-    max-width:800px;
+    max-height: 800px;
+    max-width: 1200px;
     margin: 0 400px;
 }
 #bncolor{
@@ -22,10 +22,73 @@
     text-align:center;
     font-size:25px;
 }
-.p2{
+#p2{
     font-size: 20px;
     color: white;
+    display:none;
 }
-#unorganised{
+#p3{
     font-size: 20px;
+    color: white;
+    display:none;
+}
+#p4{
+    font-size: 20px;
+    color: white;
+    display:none;
+}
+
+#unorganised1{
+    font-size: 20px;
+    display:none;
+}
+#unorganised2{
+    font-size: 20px;
+    display:none;
+}
+#unorganised3{
+    font-size: 20px;
+    display:none;
+}
+
+#mi:hover{
+    background-color:greenyellow;
+}
+#mi:hover{
+    background-color:greenyellow;
+}
+#tg:hover{
+    background-color:greenyellow;
+}
+#jr:hover{
+    background-color:greenyellow;
+}
+#rd:hover{
+    background-color:greenyellow;
+}
+#tc:hover{
+    background-color:greenyellow;
+}
+#ce:hover{
+    background-color:greenyellow;
+}
+#ya:hover{
+    background-color:greenyellow;
+}
+#sk:hover{
+    background-color:greenyellow;
+}
+#hk:hover{
+    background-color:greenyellow;
+}
+#pageNumber{
+    display:none;
+    float:left;
+}
+#intro{
+    font-size:20px;
+}
+#labelInfo{
+    font-size:20px;
+    
 }
