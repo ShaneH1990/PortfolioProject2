@@ -83,8 +83,8 @@ document.addEventListener("DOMContentLoaded", function(){
         }
 
         function loginInfo(){
-           let getinfo = document.getElementById('userInfo').innerHTML;
-           alert("your name is");
+           let getinfo = document.getElementById('userInfo').value;
+           alert("Welcome " + getinfo);
         }
        
     }
