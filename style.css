@@ -9,7 +9,7 @@
     background-color: rgb(88, 242, 242);
     text-align: center;
     box-sizing: border-box;
-    max-height: 800px;
+    max-height: 1000px;
     max-width: 1200px;
     margin: 0 400px;
 }
@@ -22,51 +22,11 @@
     text-align:center;
     font-size:25px;
 }
-#p2{
+.p2{
     font-size: 20px;
-    color: white;
     display:none;
 }
-#p3{
-    font-size: 20px;
-    color: white;
-    display:none;
-}
-#p4{
-    font-size: 20px;
-    color: white;
-    display:none;
-}
-#p5{
-    font-size: 20px;
-    color: white;
-    display:none;
-}
-#p6{
-    font-size: 20px;
-    color: white;
-    display:none;
-}
-#p7{
-    font-size: 20px;
-    color: white;
-    display:none;
-}
-#p8{
-    font-size: 20px;
-    color: white;
-    display:none;
-}
-#p9{
-    font-size: 20px;
-    color: white;
-    display:none;
-}
-#p10{
-    font-size: 20px;
-    color: white;
-    display:none;
-}
+
 
 
 #unorganised1{
@@ -111,54 +71,127 @@
 
 #mi:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #tg:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #jr:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #rd:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #tc:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #ce:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #ya:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #sk:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #hk:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #ar:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #oi:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #qn:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #onethree:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
 #onesix:hover{
     background-color:greenyellow;
+    text-decoration: underline;
 }
-#oneeigth:hover{
+#oneeight:hover{
     background-color:greenyellow;
+    text-decoration: underline;
+}
+#cb:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#ba:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#rp:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#vr:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#eg:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#sm:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#jm:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#lo:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#my:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#wb:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#hh:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
+}
+#jd:hover{
+    background-color:greenyellow;
+    text-decoration: underline;
 }
 
 
 
 
 
+#usernamedisplay{
+    display:none;
+}
+
+#next{
+    display:none;
+}
+#next2{
+    display:none;
+}
 
 
 #pageNumber{
@@ -183,4 +216,13 @@
 }
 #next1{
 display:none;
+}
+@media screen and(min-width: 350px){
+    #table{
+        height:500px;
+        width:10%;
+        display:flex;
+        flex-direction: row;
+
+    }
 }
