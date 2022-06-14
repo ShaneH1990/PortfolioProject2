@@ -19,8 +19,11 @@ document.addEventListener("DOMContentLoaded", function(){
                 createNew();
                 loginCheck(); 
                 userName();
+                hideInfo();
             }else if(this.getAttribute("data-type")==="next"){
                 pageTwo();
+                hideInfo2();
+                
             
             }else if(this.getAttribute("data-type")=== "save"){
                loginInfo();
@@ -147,5 +150,11 @@ document.addEventListener("DOMContentLoaded", function(){
                let entry = document.getElementById("bncolor").style.display = "block";
            }
        }
+    }
+    function hideInfo(){
+        let hide1 = document.getElementById('bncolor').style.display ="none";
+    }
+    function hideInfo2(){
+        let hide2 = document.getElementById('next1').style.display ="none";
     }
 })
