@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,7 @@
     <h1 id ="heading1">Modern Movie Quiz</h1>
     <p class ="paragraph">Welcome to the modern movie quiz,this quiz will test your general knowledge on movies</p>
     <div id ="table">
-        <p id ="intro">The following quiz will ask you 3 sets of 3 questions and track your progression as you answer each set of questions please enter your usernamde below and then press the begin button to start your quiz</p>
+        <p id ="intro">The following quiz will ask you 3 sets of 3 questions and track your progression as you answer each set of questions please enter your username below and then press the begin button to start your quiz</p>
         <label id="labelInfo">Enter username in the box provided:</label>
         <input type="text" id ="userInfo" placeholder="enter username here">
         <button data-type= "save" arial-label="button" id="login">Save</button>
@@ -80,11 +80,23 @@
             <li id="hh">Henry Hill</li>
             <li id="jd">John Dillinger</li>
         </ul>
+        <div id="answerdiv">
+            <h2>Answer Section</h2>
+            <p>The following are the results for your questions</p>
+
+
+
+        </div>
 
         <button data-type="begin" aria-label="begin" id="bncolor">Begin</button>
         <button data-type="next" aria-label="next" id="next1">Next</button>
         <button data-type="next2" aria-label="next2" id="next2">Next</button>
+        <button data-type="answer1" aria-label="answer1" class="enter">Enter</button>
+        <button data-type="answer2" aria-label="answer2" class="enter">Enter</button>
+        <button data-type="answer3" aria-label="answer3" class="enter">Enter</button>
+
     </div>
     <script src="script.js"></script>
+    <footer id="foot">all rights reserved 2022</footer>
 </body>
 </html>

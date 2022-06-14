@@ -28,7 +28,10 @@ document.addEventListener("DOMContentLoaded", function(){
             }else if(this.getAttribute("data-type")=== "next2"){
                 pageThree();
             
-            }else{
+            }else if(this.getAttribute("data-type")=== "answer1"){
+            
+            }
+            else{
                 let normalButton = this.getAttribute("data-type");
             }
         })
