@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function(){
         }
             let firstanswer = document.getElementById('mi');
             firstanswer.addEventListener("click", function () {
-            alert("you selected Mission Impossible!");
+            alert("you selected the first answer!");
             });
 
         
