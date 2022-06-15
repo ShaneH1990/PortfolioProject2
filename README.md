@@ -22,3 +22,5 @@ Once the user arrives at the answer page they will be shown the questions and th
 
 A media query was created in the css file to appropriately display the contents of the webpage on mobile and tablet devices so that it maybe be accessible to people using devices other than a laptop.flexbox was then used to help provide responsiveness to the web page.
 
+
+

@@ -19,11 +19,11 @@
         <input type="text" id ="userInfo" placeholder="enter username here">
         <button data-type= "save" arial-label="button" id="login">Save</button>
         <P id = "usernamedisplay"></P>
-        <p id="pageNumber">page1/3</p>
+        <p class="pageNumber">page1/3</p>
         <p class ="p2">Question 1: Name the movie that Tom Cruise stars as a fighter pilot?</p>
         <ul id ="unorganised1">
-            <li id="mi" onclick="selectAnswer();">Mission Impossible</li>
-            <li id ="tg" onclick="secondAnswe();">Top Gun</li>
+            <li id="mi">Mission Impossible</li>
+            <li id ="tg">Top Gun</li>
             <li id="jr">Jack Reacher</li>
         </ul>
 
@@ -39,7 +39,7 @@
             <li id="sk">Shrek</li>
             <li id="hk">Hulk</li>
         </ul>
-        <p id="pageNumber">page2/3</p>
+        <p class="pageNumber">page2/3</p>
         <p class ="p2">Question 1: what is the name of the star wars character Ewan Mcgregor played?</p>
         <ul id ="unorganised4">
             <li id="ar">Anakin skywalker</li>
@@ -60,11 +60,11 @@
             <li id="rp">Robert Pattinson</li>
         </ul>
 
-        <p id="pageNumber">page3/3</p>
+        <p class="pageNumber">page3/3</p>
         <p class ="p2">Question 1: What is the highest grossing movie of all time?</p>
         <ul id ="unorganised7">
             <li id="vr">Avatar</li>
-            <li id ="eg">Avenger:End Game</li>
+            <li id ="eg">Avengers:End Game</li>
             <li id="sm">Spider-man: No Way Home</li>
         </ul>
 
@@ -83,20 +83,53 @@
         <div id="answerdiv">
             <h2>Answer Section</h2>
             <p>The following are the results for your questions</p>
-
-
-
         </div>
         
         <button data-type="begin" aria-label="begin" id="bncolor">Begin</button>
         <button data-type="next" aria-label="next" id="next1">Next</button>
         <button data-type="next2" aria-label="next2" id="next2">Next</button>
-        <button data-type="answer1" aria-label="answer1" class="enter">Enter</button>
+        <button data-type="answer1" aria-label="answer1" id="enter">Submit</button>
         <button data-type="answer2" aria-label="answer2" class="enter">Enter</button>
         <button data-type="answer3" aria-label="answer3" class="enter">Enter</button>
 
+        <h2 id ="paragraph2">Welcome to the result section</h2>
+        <p id ="intro2">These are the following answers to the last 3 questions you answered</p>
+        <p id="pageNumber2">page1/3</p>
+        <p id ="question1">Question 1: Name the movie that Tom Cruise stars as a fighter pilot?</p>
+        <ul id ="ulresult">
+            <li id="a1" onclick="selectAnswer();">Mission Impossible</li>
+            <li id ="a2" onclick="secondAnswe();">Top Gun</li>
+            <li id="a3">Jack Reacher</li>
+        </ul>
+        <p class ="a1t">The correct answer is Top Gun in which Tom Cruise played the character "Maverick"</p>
+
+        <p id="question2">Question 2: Who plays the character Tony Stark in the movie "Iron Man"?</p>
+        <ul id ="ulresult2">
+            <li id="a4">Robert Downey Jr</li>
+            <li id="a5">Tom Cruise</li>
+            <li id="a6">Chris Evans</li>
+        </ul>
+        <p class ="a1t">Although Tom Cruise was Initially offered the Role he turned it down and  it was given to Robert Downey Jr</p>
+
+        <p id="question3">Question 3: What is the name of the green Ogre that lives in a swamp with a donkey?</p>
+        <ul id ="ulresult3">
+            <li id="a7">Yoda</li>
+            <li id="a8">Shrek</li>
+            <li id="a9">Hulk</li>
+        </ul>
+        <p class ="a1t">Although all three choices are green characters and Yoda lived in a swamp too at one stage, Shrek is the one that lives with a donkey</p>
+        
+
+
+
+
+
+
+
     </div>
+
     <script src="script.js"></script>
     <footer id="foot">all rights reserved 2022</footer>
+
 </body>
 </html>

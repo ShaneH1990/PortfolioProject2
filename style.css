@@ -4,12 +4,17 @@
     text-align:center;
     text-decoration:underline;
 }
-
+#enter{
+    display:none;
+}
+.enter{
+    display:none;
+}
 #table{
     background-color: rgb(88, 242, 242);
     text-align: center;
     box-sizing: border-box;
-    max-height: 1000px;
+    max-height: 1200px;
     max-width: 1200px;
     margin: 0 400px;
 }
@@ -26,9 +31,81 @@
     font-size: 20px;
     display:none;
 }
+#question1{
+    font-size: 20px;
+    display:none;
+    text-decoration:underline;
+}
+#question2{
+    font-size: 20px;
+    display:none;
+    text-decoration:underline;
+}
+#question3{
+    font-size: 20px;
+    display:none;
+    text-decoration:underline;
+}
+#paragraph2{
+    display:none;
+}
+#intro2{
+    display:none;
+}
+#pagenumber2{
+    display:none;
+}
+#q1{
+    display:none;
+}
+#ulresult{
+    display:none;
+}
+#ulresult2{
+    display:none;
+}
+#ulresult3{
+    display:none;
+}
+#a1{
+    display:none;
+}
+#a2{
+    display:none;
+}
+#a3{
+    display:none;
+}
+#a4{
+    display:none;
+}
+#a5{
+    display:none;
+}
+#a6{
+    display:none;
+}
+
+#a7{
+    display:none;
+}
+#a8{
+    display:none;
+}
+#a9{
+    display:none;
+}
 
 
 
+
+
+.a1t{
+    display:none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    
+}
 #unorganised1{
     font-size: 20px;
     display:none;
@@ -204,7 +281,7 @@
 }
 
 
-#pageNumber{
+.pageNumber{
     display:none;
     float:left;
 }
@@ -235,9 +312,15 @@ display:none;
    
     #table{
         height:500px;
-        width:10%;
+        width:500px;
         display:flex;
         flex-direction: column;
 
+    }
+    #intro{
+        display:flex;
+        flex-direction:column;
+        height:100px;
+        width:450px;
     }
 }
